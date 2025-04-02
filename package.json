@@ -17,7 +17,7 @@
     "nodemailer": "^6.10.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp -r src/templates dist/templates",
     "start:prod": "node dist/app.js",
     "start:dev": "nodemon src/app.ts",
     "test": "jest",
