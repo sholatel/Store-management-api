@@ -1,5 +1,5 @@
 {
-  "name": "mainstack-test",
+  "name": "store-managment-api",
   "version": "1.0.0",
   "description": "Mainstack backend engineering test",
   "main": "/src/app.ts",
